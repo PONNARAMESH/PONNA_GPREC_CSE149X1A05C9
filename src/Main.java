@@ -1,4 +1,4 @@
-package test;
+
 
 import java.util.Calendar;
 import java.util.Date;
@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	System.out.println("MAIN CLASS");
 	
 	Date date=Calendar.getInstance().getTime();
-	System.out.println(""+date.getHours());
+	//System.out.println(""+date.getHours());
 	
 	Student std=new Student(1, "venkat", date, 73.4d);
 	
