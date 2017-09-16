@@ -177,9 +177,12 @@ public class StudentGroup implements StudentArrayOperation {
 		for(i=0;i<stslist.size();i++){
 		
 			for(j=i+1;j<stslist.size();j++){
-				if((stslist.index(i)>stslist.index(j))
-					Student s=
-		
+				if((stslist.get(i).id>stslist.get(j).id){
+					Student s=stslist.get(i);
+					stslist.add(i,stslist.get(j));
+					stslist.add(j,s);
+				}		
+			}
 		}
 	}
 
